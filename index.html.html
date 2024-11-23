@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clima tempo style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="clima tempo javascript.js" defer ></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+  
+    <div class="center">
+        <div class="centralizado">
+            <div>
+
+                <div class="card"  id="card"style="width: 20rem; ">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title"><a id="titulo">Clima em Tempo Real<a id="icones"><img id="icon111"src="http://openweathermap.org/img/wn/01d@2x.png" height="50px"></a></a>
+                        <br>
+                        
+                        
+                        
+                      <p class="card-text">
+                        
+                        <img  class="img"id="img1" src="img/padrao dia.svg" height="100px">
+                        <img class="img" id="img2" src="img/padrao noite.svg" height="100px">
+
+                        <img class="img" id="imgclear"src="img/tempo clear.svg" height="100px">
+                        <img class="img" id="clearnoite" src="img/clearnoite.svg" height="100px">
+
+                        <img class="img" id="cloudsdia" src="img/coudsdia.svg" height="100px">
+                        <img class="img" id="cloudsnoite"src="img/cloudsnoite.svg" height="100px">
+
+                        <img class="img" id="raindia" src="img/rain dia.svg" height="100px">
+                        <img class="img" id="rainnoite" src="img/rain noite.svg" height="100px">
+
+                        <img class="img" id="thunderdia"src="img/thunderstormdia.svg" height="100px">
+                        <img class="img" id="thundernoite" src="img/thunsdestormnoite.svg" height="100px">
+
+                        <img class="img" id="diaperigo" src="img/perigo dia.svg" height="100px">
+                        <img class="img" id="noiteperigo" src="img/perigo noite.svg" height="100px"> 
+                        
+                        
+                        <form class="pesquisa">
+                            <input type="text"  id="CampoDePesquisa" placeholder="Buscar Cidade">
+                            <button id="botao" onclick="dadosUser()"><img src="img/Search.svg" height="25px"></button>
+                        </form>
+                      </p>
+                      <div id="invalid">
+                        <a>A Busca falhou verifique o nome da cidade e tente novamente</a>
+                      </div>
+
+                      <div class="dot-spinner" id="loader">
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                        <div class="dot-spinner__dot"></div>
+                    </div>
+
+
+                      
+                    </div>
+
+
+                    <div id="esconder">
+                    <div class="informacoes" id="info11">
+                      
+                      <div  class="informacoes"id="dataAtual">
+                        <div><a id="DIA">13/<a id="MES">12/</a><a id="ANO">2002</a>
+                        <img src="img/🦆 icon _calendar_.svg">
+                        </div>
+                      </div>
+                     </div>
+                      
+                     <div class="informacoes" id="horaCompleta">
+                          <div>
+                            <a id="hour">00:</a><a id="minute">00:</a><a id="second">00</a>
+                            
+                           
+                            <img src="img/🦆 icon _clock_.svg">
+                          </div>
+                        </div>
+
+                        <div class="informacoes" id="NomeDoLocal">
+                          <div>
+                            <a id="local">Caruaru<a id="pais">mu</a></a>
+                            <img src="img/Location.svg" height="18px">
+                          </div>
+                        </div>
+
+                        <div class="informacoes" id="temperatura1">
+                          <div>
+                            <a id="Temperatura">25</a><span>&deg;C</span>
+                            <img src="img/Temperature.svg">
+                          </div>
+                        </div>
+
+                        <div class="informacoes" id="umidade">
+                          <div>
+                          <a id="umidty">58<span>%</span></a>
+                          <img src="img/Moisture.svg">
+                          </div>
+                        </div>
+
+                        <div class="informacoes" id="VelocidadeVento">
+                          <div>
+                            <a id="Velocity">16</a><span id="km">km\h</span>
+                            <br>
+                            <br>
+                          </div>
+                        </div>
+                    </div>
+
+                    
+        </div>
+    </div>
+
+
+      </div>
+
+
+  
+   
+   <script href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
