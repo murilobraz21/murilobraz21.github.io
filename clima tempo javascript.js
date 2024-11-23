@@ -113,7 +113,7 @@ function dadosUser(){
     /// tras e coloca o icone do lado do titulo de acordo com o clima 
     var icones=document.getElementById("icones").style.display=""
     var iconesapi=document.getElementById("icon111")
-    iconesapi.setAttribute("src",`http://openweathermap.org/img/wn/${iconCode}.png`)
+    iconesapi.setAttribute("src",`https://openweathermap.org/img/wn/${iconCode}.png`)
     
 
         /// local,pais,temperatura,umidade,velocidade,horas,dias
