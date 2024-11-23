@@ -71,7 +71,7 @@ function dadosUser(){
 
 
     ///chave de api
-    const API_KEY = '2bdeaa94c1ab1f46ae0c76bbc8afa6c0';
+    const API_KEY = '';
 
    /// pega o valor do input e passa para a url 
     const InputUser=document.getElementById("CampoDePesquisa").value;
