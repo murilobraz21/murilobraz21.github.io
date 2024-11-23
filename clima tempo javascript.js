@@ -77,7 +77,7 @@ function dadosUser(){
     const InputUser=document.getElementById("CampoDePesquisa").value;
     const CITY_NAME = InputUser;
  /// url da api
- const url = `http://api.openweathermap.org/data/2.5/weather?q=${CITY_NAME}&appid=${API_KEY}&units=metric&lang=pt_br`;
+ const url = `https://api.openweathermap.org/data/2.5/weather?q=${CITY_NAME}&appid=${API_KEY}&units=metric&lang=pt_br`;
  
  fetch(url)
    .then(response => response.json())
